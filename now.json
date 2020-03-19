@@ -1,0 +1,8 @@
+{
+    "env": {
+      "MONGODB_URI": "mongodb_uri",
+      "DB_NAME": "mongodb_uri",
+      "SERVER_URL": "server_url"
+    }
+  }
+  
