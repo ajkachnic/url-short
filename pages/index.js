@@ -14,7 +14,7 @@ const Home = () => {
       redirectUrl: url
     })
     .then(data => {
-      setMessage(`The URL is ${process.env.SERVER_URL}/!/${data.data.linkId}`)
+      setMessage(`The URL is ${process.env.SERVER_URL}/${data.data.linkId}`)
     })
     .catch(err => console.log(err))
   }
